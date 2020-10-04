@@ -1,0 +1,73 @@
+sigma
+filter
+channel
+
+Check float 
+normalize between 0 and 1 - Done
+change from add new axis to np.stack in q1.1
+supposed to change fitler scales array? - Done
+change default output location - Done
+calculate L - Done
+value 60 in compute_one_dict_image needs to be generalized - Done
+Tiles are not always square...- Done
+change the var tiles
+dynamic way to convert (210,) to (210,1) 
+weights not working - currently hard coded, fixed by casting L to int inside of SPM function - Done
+changed loop from L+1 to L, TEST THIS!
+What about if L = 0??
+get rid of print statements
+Why do we use multiple scales 
+
+
+pass through filtering
+tube is word
+take alpha of tubes 
+plot it into n space 
+
+one image - takes alpha many tubes and saves it to a file 
+
+25 tubes for each photo and each tube is 3f in degree 
+k number of dict words - 10
+
+compute_one_dictionary - 25 tubes passed to a file which can be read to 
+
+however many images - create that many csv files (or numpy) 
+25 3F long tubes
+
+
+../data/
+
+compute_dict_one - 
+
+
+personal projects
+
+Rob Bocchino - JPL CS (F-Prime)
+cube rover flight software
+
+
+
+
+lifting
+alex
+family
+pursuit of my career
+being seen as capable 
+Getting through CMU
+maintaining relationships w friends 
+Reading 
+caring for others 
+
+123510
+L=3
+25
+25
+
+run1: 1,2,3,4,5   k =10, a = 25, L=3, Conf =  51.5
+run2: 1,2,3,5,10, k =10, a = 25, L=3, Conf =  51.5
+run3: 1,2,3,5,10, k =25, a = 25, L=4, Conf =  60.75
+run4: 1,2,3,5,10, k =30, a = 30, L=4, Conf =  62.5
+run5: 1,2,3,5,10, k =35, a = 35, L=4, Conf =  60.25
+run6: 1,2,3,5,10, k =30, a = 30, L=4, Conf =  64.5     # changes weighting scheme
+
+
