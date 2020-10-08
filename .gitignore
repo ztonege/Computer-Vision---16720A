@@ -1,3 +1,6 @@
 hw1_2020fall\hw1_2020fall\data\*
 hw1_2020fall\hw1_2020fall\.vscode\*
 hw1_2020fall\hw1_2020fall\figures\*
+hw2_2020fall/.vscode/*
+hw2_2020fall/python/.vscode*
+hw2_2020fall/python/__pycache__*
